@@ -1,0 +1,4 @@
+requests>=2.31.0
+pytz>=2023.3
+fastapi>=0.115.0
+uvicorn>=0.30.0
