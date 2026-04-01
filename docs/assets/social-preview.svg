@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Korean NOTAM API and Crawler</title>
+  <desc id="desc">Social preview graphic for the Korean NOTAM API and Crawler repository.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1f33" />
+      <stop offset="55%" stop-color="#154a75" />
+      <stop offset="100%" stop-color="#1d7c8c" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)" />
+  <rect x="70" y="70" width="1140" height="500" rx="28" fill="#08131f" fill-opacity="0.22" stroke="#d6eef6" stroke-opacity="0.2" />
+  <circle cx="1090" cy="160" r="118" fill="#7bd3d8" fill-opacity="0.12" />
+  <circle cx="1160" cy="470" r="164" fill="#ffe082" fill-opacity="0.08" />
+  <text x="110" y="170" fill="#e9f7fb" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="1">OPEN SOURCE AVIATION INFRASTRUCTURE</text>
+  <text x="110" y="265" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">Korean NOTAM</text>
+  <text x="110" y="338" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">API and Crawler</text>
+  <text x="110" y="414" fill="#d7edf4" font-family="Segoe UI, Arial, sans-serif" font-size="27">
+    Collect, normalize, monitor, and self-host Korean NOTAM data
+  </text>
+  <text x="110" y="456" fill="#d7edf4" font-family="Segoe UI, Arial, sans-serif" font-size="27">
+    with Python, FastAPI, SQLite, and reusable open-source workflows.
+  </text>
+  <rect x="110" y="500" width="170" height="48" rx="24" fill="#f3fbff" fill-opacity="0.16" />
+  <rect x="294" y="500" width="145" height="48" rx="24" fill="#f3fbff" fill-opacity="0.16" />
+  <rect x="453" y="500" width="126" height="48" rx="24" fill="#f3fbff" fill-opacity="0.16" />
+  <rect x="593" y="500" width="252" height="48" rx="24" fill="#f3fbff" fill-opacity="0.16" />
+  <text x="145" y="531" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Python</text>
+  <text x="329" y="531" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">FastAPI</text>
+  <text x="488" y="531" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">SQLite</text>
+  <text x="628" y="531" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">OSS Infrastructure</text>
+</svg>

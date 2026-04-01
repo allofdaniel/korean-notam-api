@@ -1,0 +1,31 @@
+changelog:
+  exclude:
+    labels:
+      - skip-changelog
+      - duplicate
+      - invalid
+      - question
+      - wontfix
+  categories:
+    - title: Features
+      labels:
+        - feature
+        - enhancement
+    - title: API and Data
+      labels:
+        - api
+        - data
+        - parser
+    - title: Documentation
+      labels:
+        - documentation
+        - docs
+    - title: Testing and CI
+      labels:
+        - test
+        - tests
+        - ci
+    - title: Maintenance
+      labels:
+        - chore
+        - maintenance
