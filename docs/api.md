@@ -5,10 +5,10 @@ The repository includes a small FastAPI reference server in [`reference_api/main
 ## Run Locally
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn reference_api.main:app --reload
+python3 -m pip install -r requirements.txt
+python3 -m uvicorn reference_api.main:app --reload
 ```
 
 ## Endpoints

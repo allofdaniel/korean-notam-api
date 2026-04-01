@@ -78,15 +78,15 @@ That hosted service direction does not conflict with the open-source core. The O
 ### Base setup
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ### Run the reference API
 
 ```bash
-uvicorn reference_api.main:app --reload
+python3 -m uvicorn reference_api.main:app --reload
 ```
 
 Then open:
@@ -97,7 +97,7 @@ Then open:
 ### Direct crawler
 
 ```bash
-python notam_crawler_api.py
+python3 notam_crawler_api.py
 ```
 
 ### Hybrid crawler
@@ -105,21 +105,21 @@ python notam_crawler_api.py
 If you want the Selenium fallback too:
 
 ```bash
-pip install -r requirements-selenium.txt
-python notam_hybrid_crawler.py
+python3 -m pip install -r requirements-selenium.txt
+python3 notam_hybrid_crawler.py
 ```
 
 ### Monitor workflow
 
 ```bash
-python notam_monitor.py
+python3 notam_monitor.py
 ```
 
 ### Run tests
 
 ```bash
-pip install -r requirements-dev.txt
-pytest
+python3 -m pip install -r requirements-dev.txt
+python3 -m pytest
 ```
 
 ## Important Notes
@@ -135,8 +135,10 @@ pytest
 - [Architecture](docs/architecture.md)
 - [Ecosystem Impact](docs/ecosystem-impact.md)
 - [Roadmap](docs/roadmap.md)
+- [Source And Safety Notes](docs/source-and-safety.md)
 - [Use Cases](docs/use-cases.md)
 - [Contributing](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Security](SECURITY.md)
 
 ## Contributing
@@ -148,6 +150,8 @@ Contributions are welcome, especially around:
 - documentation
 - better tests
 - Korean aviation data validation
+
+Please read the [Contributing](CONTRIBUTING.md), [Code of Conduct](CODE_OF_CONDUCT.md), and [Source And Safety Notes](docs/source-and-safety.md) documents before opening issues or pull requests.
 
 ## License
 

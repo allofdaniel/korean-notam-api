@@ -2,6 +2,11 @@
 
 Issues and pull requests are welcome.
 
+Before contributing, read:
+
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Source And Safety Notes](docs/source-and-safety.md)
+
 ## Good First Contributions
 
 - improve parsing reliability
@@ -12,10 +17,12 @@ Issues and pull requests are welcome.
 
 ## Before Opening A PR
 
+- use the GitHub issue and PR templates when they fit
 - keep secrets and deployment credentials out of the repository
 - prefer synthetic samples over real operational dumps
 - avoid adding large generated files
 - document behavior changes in the README or docs when relevant
+- call out any source-system or safety implications explicitly
 
 ## Development Notes
 
