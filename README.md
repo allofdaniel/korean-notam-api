@@ -133,6 +133,7 @@ pytest
 
 - [API Reference](docs/api.md)
 - [Architecture](docs/architecture.md)
+- [Ecosystem Impact](docs/ecosystem-impact.md)
 - [Roadmap](docs/roadmap.md)
 - [Use Cases](docs/use-cases.md)
 - [Contributing](CONTRIBUTING.md)
